@@ -1,10 +1,10 @@
-# Projects
+# Projects HTML & CSS
 
-# TODO
+# TO-DO
 Aqui estan los proyectos a realizar, por el momento seran 10, a medida que avance se agregaran mas
 - <s>Menu</s>
 - <s>Tarjetas</s>
-- Estilizar Tablas
+- <s>Estilizar Tablas</s>
 - Notificación animada
 - Formulario de login
 - Barra progeso
@@ -12,3 +12,6 @@ Aqui estan los proyectos a realizar, por el momento seran 10, a medida que avanc
 - Checkboxes
 - Barra de busqueda
 - Voltear tarjeta
+
+Recordartorio:
+- revisar las task en cada codigo
