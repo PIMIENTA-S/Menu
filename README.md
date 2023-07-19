@@ -13,7 +13,5 @@ Aqui estan los proyectos a realizar, por el momento seran 10, a medida que avanc
 - Barra de busqueda
 - Voltear tarjeta
 
-Recordartorio:
+## Recordartorio:
 - revisar las task en cada codigo
-- prueba
-- si
