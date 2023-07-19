@@ -15,3 +15,5 @@ Aqui estan los proyectos a realizar, por el momento seran 10, a medida que avanc
 
 Recordartorio:
 - revisar las task en cada codigo
+- prueba
+- si
