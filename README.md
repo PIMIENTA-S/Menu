@@ -2,11 +2,13 @@
 
 # TO-DO
 Aqui estan los proyectos a realizar, por el momento seran 10, a medida que avance se agregaran mas
+
 - <s>Menu</s>
 - <s>Tarjetas</s>
 - <s>Estilizar Tablas</s>
 - Notificación animada
 - Formulario de login
+- Conversor 
 - Barra progeso
 - Tabla de Precios
 - Checkboxes
