@@ -20,6 +20,16 @@ function convertir (){
         final = number * 1
         resultado.innerHTML = number + " Kilometros equivalen a " + final + " Kilometros"
     }
+
+    if (unidad1.value == "Metros" && unidad2.value == "Metros"){
+        final = number * 1
+        resultado.innerHTML = number + " Metros equivales a" + final + " Metros"
+    }
+
+    if (unidad1.value == "Centimetros" && unidad2.value == "Centimetros"){
+        final = number * 1
+        resultado.innerHTML = number + " Centimetros equivales a" + final + " Centimetros"
+    }
 }
 
 
