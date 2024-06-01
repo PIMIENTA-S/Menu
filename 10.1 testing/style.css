@@ -3,98 +3,59 @@
     --background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One&amp;subset=latin-ext');
-
-* {
-    vertical-align: baseline;
-    font-family: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    border: none;
-    padding: 0;
-    margin: 0;
-}
+/* @import url('https://fonts.googleapis.com/css?family=Fjalla+One&amp;subset=latin-ext'); */
 
 body {
     margin: 0;
-    padding: 0;
-    font-family: 'Fjalla One', sans-serif;
-    position: relative;
-    display: block;
+    font-family: "Fjalla One", sans-serif;
 }
 
-#top-block {
-    height: 100vh;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    overflow: hidden;
-    position: relative;
-}
-
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-#wrap-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 0;
-    z-index: 999999;
-}
-
-#wrap-nav nav {
-    position: relative;
-    transform: translateX(-50%);
-    color: white;
-    max-width: 900px;
-    z-index: 99999;
-    left: 50%;
-    text-align: center;
-    font-size: 16px;
-    height: 65px;
+.navbar {
+    /* background: var(--background); */
+    padding: 15px 0;
     display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+    /* height: 100vh; */
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
+.navbar-menu {
     list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-}
-
-nav ul > li {
-    display: inline-block;
+.navbar-menu li{
+    margin: 0 2px;
     position: relative;
 }
 
-nav ul > li.logo img {
-    width: 100%;
-    border-radius: 50%;
-    height: 100%;
+.navbar-menu li a{
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid #000;
+    padding: 10px 45px;
 }
 
-nav ul > li.logo {
-    width: 95px;
-    margin: 0;
-    height: 95px;
-    vertical-align: middle;
+.navbar-logo img{
+    width: 80px;
 }
+
+.navbar-menu li:first-child a{
+    border-radius: 50px 0 0 50px;
+}
+
+.navbar-menu li:nth-child(2){
+    
+}
+
+.navbar-menu li:last-child a{
+    border-radius: 0 50px 50px 0;
+}
+
+
