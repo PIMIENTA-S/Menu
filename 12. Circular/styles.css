@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: transform 1s, opacity .5s;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.home {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 1.5rem;
+    color: #333;
+
+}
+
+@keyframes spinAndShrink {
+    from {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: rotate(720deg) scale(0.5); /* 2 vueltas completas y se reduce al 50% del tamaño original */
+        opacity: 0;
+    }
+}
+
+.container:hover .logo {
+    animation: spinAndShrink 1.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+.container:hover .home {
+    opacity: 1;
+}
