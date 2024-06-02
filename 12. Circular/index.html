@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric Design with Notches</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .rectangle {
+            position: relative;
+            width: 150px;
+            height: 100px;
+            border: 2px solid black;
+        }
+
+        .rectangle::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: white;
+            border: 2px solid black;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .left-rectangle::after {
+            right: -21px; /* Adjust to overlap the borders */
+        }
+
+        .right-rectangle::after {
+            left: -21px; /* Adjust to overlap the borders */
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 50%;
+            z-index: 1;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle left-rectangle"></div>
+        <div class="circle"></div>
+        <div class="rectangle right-rectangle"></div>
+    </div>
+</body>
+</html>
