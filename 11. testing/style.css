@@ -39,9 +39,12 @@ body {
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     padding: 10px 45px;
     background-color: white;
+    background: transparent;
+    color: #fff;
+
 }
 
 .navbar-logo{
@@ -73,5 +76,12 @@ body {
     border-left-color: transparent;
 }
 
+.navbar-menu li:first-child a:hover,
+.navbar-menu li:nth-child(2) a:hover,
+.navbar-menu li:nth-child(4) a:hover,
+.navbar-menu li:last-child a:hover
+{
+    color: #d7710f ;
+}
 
 
