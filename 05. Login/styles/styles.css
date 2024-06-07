@@ -135,3 +135,34 @@ body{
     height: 100%;
     width: 50%;
 }
+
+@media screen and (max-width: 1400px) {
+    .container .welcome-screen{
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container .login{
+        width: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .container .welcome-screen{
+        display: none;
+    }
+
+    .container{
+        height: 80%;
+    }
+    
+}
