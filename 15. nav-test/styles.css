@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1e22; /* Fondo similar al del navbar */
+}
+
+.navbar {
+    background-color: #111;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-menu li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+    background-color: #333;
+}
+
+.navbar-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #000;
+}
+
+.navbar-menu li a {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-menu li:first-child a,
+.navbar-menu li:nth-child(2) a,
+.navbar-menu li:nth-child(4) a,
+.navbar-menu li:last-child a {
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 8px 18px;
+    background-color: #222;
+}
+
+.navbar-menu li:first-child a:hover,
+.navbar-menu li:nth-child(2) a:hover,
+.navbar-menu li:nth-child(4) a:hover,
+.navbar-menu li:last-child a:hover {
+    background-color: #444;
+}
+
+.navbar-menu li:nth-child(2) a {
+    color: #ff5050;
+}
